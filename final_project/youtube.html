@@ -4,38 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube</title>
+    <title>Youtube-final-project</title>
     <style>
-        /* 
-        .thumbnail1{
-            width: 300px;
-            height: 300px;
-            object-fit: contain;
-            object-fit : contain; is to make it fit in but have some extra white spazces 
-            boject-fit: cover: try not to stretch, but not the whole image will be presented 
-            object-position: top;
-            object-position: top, right, left, center, bottom 
-            border: 2px;
-            border-style: solid;
-            border-color: red;
-        }*/
         .thumbnail{
             width: 300px;
             border: none;
-            /* Once the width is set, the height is changed also. */
-            /* If need to set the height as well, so object-fit: cover */
+            display: block;
         }
-        .searchbar{
-            font-size: 10px;
-            margin-left: 12px;
+        .video-title{
+            /* block element takes up the entire line (e.g. paragraph) */
+            /* inline-block elementonly takes up as specified (such as img, bar) */
+            /* inline element is appear within a line of text (just text) */
+            width: 300px;
+        }
+        .video-author, .video-stats{
+            display: block;
         }
     </style>
 </head>
 <body>
-    <!-- src is source -->
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
-    <input class= "searchbar" type="textbox" placeholder="search">
-    <!-- type also has checkbox -->
-    <!-- there is some text in the searchbox first, called placeholder -->
+    <input class= "searchbar" type="textbox" placeholder="Search">
+    <img class="thumbnail" src="../final_project/thumbnails/thumbnail-1.webp" alt="">
+    <p class="video-title">
+        Talking Tech and AI with Google CEO Sundar Pichai
+    </p>
+    <p class="video-author">
+        Marques Brownlee
+    </p>
+    <p class="video-stats">
+        3.4M views &#183; 6 months ago
+    </p>
 </body>
 </html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+    <style>
+        .searchbar{
+            display:block;
+        }
+        .video-preview{
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-right: 4px;
+            padding-left: 4px;
+        }
+        .thumbnail{
+            width: 300px;
+            border: none;
+            display: block;
+        }
+        .video-title{
+            /* block element takes up the entire line (e.g. paragraph) */
+            /* inline-block elementonly takes up as specified (such as img, bar) */
+            /* inline element is appear within a line of text (just text) */
+            width: 300px;
+        }
+        .video-author, .video-stats{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <input class= "searchbar" type="textbox" placeholder="Search">
+    <div class="video-preview">
+        <img class="thumbnail" src="../final_project/thumbnails/thumbnail-1.webp" alt="">
+        <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai
+        </p>
+        <p class="video-author">
+            Marques Brownlee
+        </p>
+        <p class="video-stats">
+            3.4M views &#183; 6 months ago
+        </p>
+    </div>
+    <div class="video-preview">
+        <img class="thumbnail" src="../final_project/thumbnails/thumbnail-2.webp" alt="">
+        <p class="video-title">
+            Try Not to Laugh Challenge &#35;9
+        </p>
+        <p class="video-author">
+            Markiplier
+        </p>
+        <p class="video-stats">
+            19M views &#183; 4 years ago
+        </p>
+    </div>
+</body>
+</html>
