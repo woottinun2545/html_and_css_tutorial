@@ -1,0 +1,57 @@
+p{
+    margin-top: 0px;
+    margin-bottom: opx;
+    font-family: Roboto;
+}
+.video-title{
+    font-size: 18px;
+    font-weight: bold;
+    /* font-style: italic; */
+    /* text-align:center; */
+    /* This is to force the text to be in the next line */
+    width: 300px;
+    margin-bottom: 5px; 
+    line-height: 24px;
+}
+.video-stats{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 0px;   
+    margin-bottom: 16px;     
+}
+.video-author{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 1px;
+    margin-top: 0px;
+}
+.video-description{
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(96, 96, 96);
+    margin-top: 0px;
+    margin-bottom: 100px;
+    width: 284px;
+}
+.apple-text{
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 0px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 16px;
+}
+.shop-now{
+    cursor: pointer;
+}
+.shop-now:hover{
+    text-decoration: underline; 
+    cursor: pointer;
+}

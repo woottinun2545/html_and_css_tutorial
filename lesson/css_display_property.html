@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        .thumbnail{
+            width: 300px;
+            border: none;
+            display: block;
+        }
+        .video-title{
+            /* block element takes up the entire line (e.g. paragraph) */
+            /* inline-block elementonly takes up as specified (such as img, bar) */
+            /* inline element is appear within a line of text (just text) */
+            width: 300px;
+        }
+        .video-author, .video-stats{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <input class= "searchbar" type="textbox" placeholder="Search">
+    <img class="thumbnail" src="../final_project/thumbnails/thumbnail-1.webp" alt="">
+    <p class="video-title">
+        Talking Tech and AI with Google CEO Sundar Pichai
+    </p>
+    <p class="video-author">
+        Marques Brownlee
+    </p>
+    <p class="video-stats">
+        3.4M views &#183; 6 months ago
+    </p>
+</body>
+</html>
