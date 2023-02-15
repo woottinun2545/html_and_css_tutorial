@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .stretch{
+            color: white;
+            background-color: green;
+            border:none;
+            padding-left: 13px;
+            padding-right: 13px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            font-size: 18px;
+            cursor:pointer;
+            transition: padding-left 1s,
+                padding-right 1s,
+                padding-top 1s,
+                padding-bottom 1s;
+        }
+        .stretch:hover{
+            padding-left: 26px;
+            padding-right: 26px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            transition: padding-left 1s,
+                padding-right 1s,
+                padding-top 1s,
+                padding-bottom 1s;
+        }
+        .shadow{
+            color: white;
+            background-color: green;
+            border:none;
+            padding-left: 13px;
+            padding-right: 13px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            font-size: 18px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+            cursor:pointer;
+        }
+        .shadow:active{
+            margin-left:5px;
+            margin-right:5px;
+            margin-top:5px;
+            margin-bottom:5px;
+            box-shadow: none;
+        }
+        .numberone{
+            border:none;
+            color: white;
+            background-color: green;
+            font-size: 18px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 10px;
+        }
+        .number{
+            border:none;
+            color: white;
+            background-color: green;
+            font-size: 18px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .number:active{
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <button class = stretch>
+        Stretch
+    </button>
+    <p></p>
+    <button class="shadow">
+        Shadow
+    </button>
+    <p></p>
+    <button class ="numberone">
+        One
+    </button>
+    <button class ="number">
+        Two
+    </button>
+    <button class ="number">
+        Three
+    </button>
+    <p></p>
+</body>
+</html>
