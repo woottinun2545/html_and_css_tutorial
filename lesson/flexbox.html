@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<body">
+    <!-- Create like grid but more flexible, to create header of the website -->
+    <div style = "
+        display: flex;
+        flex-direction: row;
+    ">
+    <!-- take the space just they need to -->
+        <div style = "background-color: lightblue;">
+            div1 text
+        </div>
+        <div style="background-color: lightpink;">
+            div2
+            <p>text</p>
+        </div>
+    </div>
+
+    <div style = "
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+    ">
+        <div style = "background-color: lightblue; width: 100px;">
+            100px
+        </div>
+        <div style="background-color: lightpink; flex: 1;">
+            flex 1
+        </div>
+    </div>
+
+    <div style = "
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px
+    ">
+    <!-- take the space just they need to -->
+        <div style="background-color: lightpink; flex: 1;">
+            flex1
+        </div>
+        <div style = "background-color: lightblue;">
+            div1 text
+        </div>
+        <div style="background-color: lightgreen; flex: 2;">
+            flex:2;
+        </div>    
+    </div>
+    <div style = "
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        border-width: 1px;
+        border-style: solid;
+        border-color: grey;
+        height: 70px;
+        justify-content: center;
+        /* justify-content: start, center, end; */
+    ">
+        <div style = "background-color: lightblue; width: 100px;">
+            100px
+        </div>
+        <div style="background-color: lightpink; width: 100px;">
+            flex 1
+        </div>
+        <div style="background-color: lightgreen; width: 100px;">
+            flex:2;
+        </div>
+
+    </div>
+    <div style = "
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        border-width: 1px;
+        border-style: solid;
+        border-color: grey;
+        height: 70px;
+        justify-content: space-between;
+        /* justify-content: start, center, end, space-between*/
+    ">
+        <div style = "background-color: lightblue; width: 100px;">
+            100px
+        </div>
+        <div style="background-color: lightpink; width: 100px;">
+            flex 1
+        </div>
+        <div style="background-color: lightgreen; width: 100px;">
+            flex:2;
+        </div>
+    </div>
+    <div style = "
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        border-width: 1px;
+        border-style: solid;
+        border-color: grey;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+        /* stretch, start, end, center */
+    ">
+        <div style = "background-color: lightblue; width: 100px;">
+            100px
+        </div>
+        <div style="background-color: lightpink; width: 100px;">
+            flex 1
+        </div>
+        <div style="background-color: lightgreen; width: 100px;">
+            flex:2;
+        </div>
+
+    </div>
+</body>
+</html>
