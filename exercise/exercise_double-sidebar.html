@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>double-sidebar</title>
+    <style>
+        .first-sidebar{
+            background-color: rgba(0,0,0,0.7);
+            position: fixed;
+            top:0px;
+            bottom: 0px;
+            left: 0px;
+            width: 80px;
+            padding-top: 10px;
+        }
+        .profile-div{
+            /* display: flex; */
+            /* align-items: center; */
+            margin-top: 5px;
+            text-align: center;
+        }
+        .profile{
+            /* margin-top: 15px; */
+            width: 45px;
+            height: 45px;
+            border: none;
+            border-radius: 22px;
+        }
+        .second-sidebar{
+            position: fixed;
+            background-color: rgba(0,0,0,0.5);
+            left: 80px;
+            top: 0px;
+            bottom: 0px;
+            width: 200px;
+            padding-top: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0px;
+        }
+        .info{
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .add{
+            font-size: 18px;
+            font-weight: bold;
+            color: rgb(215,215,215)
+        }
+        .detail{
+            color: rgb(215,215,215);
+            padding-top: 15px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class = "first-sidebar">
+        <div class = "profile-div">
+            <img class = "profile" src="picture/seiko-spb307j1.webp" alt="">
+        </div>
+        <div class = "profile-div">
+            <img class = "profile" src="picture/seiko-spb307j1.webp" alt="">
+        </div>
+        <div class = "profile-div">
+            <img class = "profile" src="picture/seiko-spb307j1.webp" alt="">
+        </div>
+    </div>
+    <div class = "second-sidebar">
+        <div class="header">
+            <div class="info">INFO</div>
+            <div class="add">+</div>
+        </div>
+        <div class="detail"># new-videos</div>
+        <div class="detail"># update</div>
+        <div class = "detail"># faq</div>
+    </div>
+</body>
+</html>
